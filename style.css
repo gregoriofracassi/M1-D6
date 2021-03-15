@@ -1,0 +1,28 @@
+.footer {
+    background-color: grey;
+    margin-top: 100px;
+}
+
+.margina {
+    margin:auto
+}
+
+.smlpadding {
+    padding: 70px;
+}
+
+.text-white {
+    color: white;
+}
+
+.margintop {
+    margin-top: 50px;
+}
+
+.huge-font {
+    font-size: 30px;
+}
+
+.invisible {
+    display: none;
+}

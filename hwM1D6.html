@@ -1,0 +1,109 @@
+<!-- You have been assigned to the creation of a Smartphone Shop Website. The homepage you're about to write is just a showcase of the products of the shop with some extra information. No shopping cart / checkout features are required. -->
+
+<!-- Complete exercises from 1 to 6 with just plain HTML. -->
+
+<!-- EX1.: Add an h1 tag with the name of your shop -->
+
+<!-- EX2.: Add a TABLE with the top 5 products of your shop -->
+
+<!-- EX3.: Insert for each product an image, a title, a description and a price -->
+
+<!-- EX4.: Add links to existing Amazon products for each item in the table -->
+
+<!-- EX5.: Add a footer with the address and the name of your shop -->
+
+<!-- EX6.: Add a message board where the user can type a message in it (no real posting/saving features required!) -->
+
+<!-- EXTRA (use JavaScript code here) -->
+
+<!-- EX7.: Write a function to change the h1 text -->
+
+<!-- EX8.: Write a function to change the page background color -->
+
+<!-- EX9.: Write a function to change the footer address with a fake one -->
+
+<!-- EX10.: Write a function to add a CSS class to every Amazon link -->
+
+<!-- EX11: Write a function to toggle a CSS class for all the images in the table; that class should set the visibility of the image -->
+
+<!-- EX12: Write a function to color the price of each product in a different one every time it's invoked -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMARTPHONE FRENZY</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <h1>SMARTPHONE FRENZY</h1>
+      <table>
+          <tr>
+              <td><img src="https://images-na.ssl-images-amazon.com/images/I/51SNlIzN1EL._AC_SL1000_.jpg" alt="Xiaomi redmi 9" width="200"></td>
+              <td><img src="https://images-na.ssl-images-amazon.com/images/I/81nr7z28K0L._AC_SL1500_.jpg" alt="Honor 6c" width="125"></td>
+              <td><img src="https://images-na.ssl-images-amazon.com/images/I/61vvbpkbREL._AC_SL1080_.jpg" alt="Oukitel c18" width="200"></td>
+              <td><img src="https://images-na.ssl-images-amazon.com/images/I/61gtdAgGBsL._AC_SL1000_.jpg" alt="Oukitel c19" width="200"></td>
+              <td><img src="https://images-na.ssl-images-amazon.com/images/I/81n0AOvWJgL._AC_SL1500_.jpg" alt="Doogee x95" width="170"></td>
+          </tr>      
+          <tr>
+              <td><h4>Xiaomi redmi 9</h4></td>
+              <td><h4>Honor 6c</h4></td>
+              <td><h4>Oukitel c18</h4></td>
+              <td><h4>Oukitel c19</h4></td>
+              <td><h4>Doogee x95</h4></td>
+          </tr> 
+          <tr>
+              <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptates quia facere </td>
+              <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptates quia facere </td>
+              <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptates quia facere </td>
+              <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptates quia facere </td>
+              <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptates quia facere </td>
+          </tr>  
+          <tr>
+              <td>€ 239.99</td>
+              <td>€ 249.99</td>
+              <td>€ 259.99</td>
+              <td>€ 299.99</td>
+              <td>€ 199.99</td>
+          </tr>  
+          <tr>
+              <td><a href="https://www.amazon.it/Xiaomi-Octa-core-Processore-Telecamera-Posteriore/dp/B08B1D34QQ/ref=asc_df_B08B1D34QQ/?tag=googshopit-21&linkCode=df0&hvadid=459254003407&hvpos=&hvnetw=g&hvrand=11126098141334885856&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008948&hvtargid=pla-926552417450&psc=1">View offer</a></td>
+              <td><a href="https://www.amazon.it/dp/B076F4PXZB/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B076F4PXZB&pd_rd_w=Hsd4O&pf_rd_p=07b82cda-23d8-426b-8b0d-6f22cefb2c96&pd_rd_wg=lDPrJ&pf_rd_r=0J5HFKWX8596D8DQ32FV&pd_rd_r=e0c7f728-0fa9-4dc2-bf8e-9327ebab1f71&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyS0Y0NE9LOVZKTlRXJmVuY3J5cHRlZElkPUEwMTA4Njc2MjdZVDMyRUs4OUlUTiZlbmNyeXB0ZWRBZElkPUEwMjUwMjc3MVUySDE1UDY4UFE0QiZ3aWRnZXROYW1lPXNwX2RldGFpbCZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=">View offer</a></td>
+              <td><a href="https://www.amazon.it/dp/B087JD8JHH/ref=sspa_dk_detail_0?psc=1&pd_rd_i=B087JD8JHH&pd_rd_w=Hsd4O&pf_rd_p=07b82cda-23d8-426b-8b0d-6f22cefb2c96&pd_rd_wg=lDPrJ&pf_rd_r=0J5HFKWX8596D8DQ32FV&pd_rd_r=e0c7f728-0fa9-4dc2-bf8e-9327ebab1f71&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyS0Y0NE9LOVZKTlRXJmVuY3J5cHRlZElkPUEwMTA4Njc2MjdZVDMyRUs4OUlUTiZlbmNyeXB0ZWRBZElkPUEwNzE3ODkwMzM1WUQ5T0pEOEpUSyZ3aWRnZXROYW1lPXNwX2RldGFpbCZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=">View offer</a></td>
+              <td><a href="https://www.amazon.it/dp/B08K8FBXPN/ref=sspa_dk_detail_0?psc=1&pd_rd_i=B08K8FBXPN&pd_rd_w=8zUFe&pf_rd_p=07b82cda-23d8-426b-8b0d-6f22cefb2c96&pd_rd_wg=yCxeP&pf_rd_r=Y7YC1W0TG99VTQ2J1552&pd_rd_r=3a081143-7c81-4f22-bfec-101d50f27d40&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExWjFWTzRESTFYWVE5JmVuY3J5cHRlZElkPUExMDE3MDM3M1MxM05NMVlLVlhBQiZlbmNyeXB0ZWRBZElkPUEwNDM2Njk1M0pIMkVSNzhLNUxDWCZ3aWRnZXROYW1lPXNwX2RldGFpbCZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=">View offer</a></td>
+              <td><a href="https://www.amazon.it/DOOGEE-X95-Smartphone-Cellulari-Espandibili/dp/B08571KDS4/ref=pd_sbs_1?pd_rd_w=dNsjC&pf_rd_p=068ce171-ca09-42ae-9abf-f5f8197aa7fb&pf_rd_r=PVM7KZ5AB04QDJM4RVG9&pd_rd_r=dd04d093-b964-4186-b4a4-071a49c202a7&pd_rd_wg=30yxG&pd_rd_i=B08571KDS4&psc=1">View offer</a></td>
+          </tr>   
+      </table>
+      <form class="margintop">
+        <label for="fname">Contact us:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+      </form>
+      <div class="footer">
+          <table class="margina text-white">
+              <tr>
+                  <td class="smlpadding">Smartphone Frenzy LLC</td>
+                  <td class="smlpadding">2021</td>
+                  <td class="smlpadding" id="address">via Agordat 16, Vercelli</td>
+              </tr>
+          </table>
+      </div>
+      <script>
+        const changeH1 = () => document.querySelector("h1").innerText = "SMARTPHONELAND"
+        //   changeH1()
+        const yellowPage = () => document.querySelector("body").style.background = "yellow"
+        // yellowPage()
+        const changeAddress = () => document.querySelector("#address").innerText = "via Emilia 35, Venezia"
+        // changeAddress()
+        const bigFont = () => document.querySelectorAll("a").forEach( x => x.classList.add("huge-font"))
+        // bigFont()
+        const noImg = () => document.querySelectorAll("img").forEach( x => x.classList.toggle("invisible"))
+        // noImg()
+        const colors = ["red", "green", "black", "yellow"]
+        const changePriceColor = () => {
+            document.querySelectorAll("a").forEach( x => x.style.color = colors[Math.round(Math.random() * 3)])
+        }
+        changePriceColor()
+      </script>
+  </body>
+</html>
